@@ -29,35 +29,6 @@ document.getElementById("add").addEventListener("click",()=>{
     }
 })
 
-// document.getElementById("add")
-// async function displayUser(){
-//     let sec="";
-//     fetch("http://localhost:8001/api/display").then((res)=>res.json()).then((data)=>{
-//         data.reverse().forEach(d=>{
-//             sec+=`<section class="sec" id="sec">
-//             <div class="col1">${d.name}</div>
-//             <div class="col2">${d.year}</div>
-//             <div class="col2">${d.language}</div>
-//         </section>`;
-//         })
-//         document.getElementById("display").innerHTML=sec;
-//     }).catch((error)=>{
-//         console.log(error);
-//     })
-
-// }
-// displayUser();
-
-
-
-
-
-
-
-
-
-
-
 
 function convertToBase64(file){
     return new Promise((resolve,reject)=>{

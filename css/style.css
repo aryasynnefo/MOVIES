@@ -73,7 +73,8 @@ font-family: 'Satisfy', cursive; */
     background-image: url(../images/addcover.jpg);
     background-size: cover;
     background-attachment: fixed;
-    height: 540px;
+    height: 100vh;
+    
 }
 
 .row{
