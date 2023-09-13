@@ -13,7 +13,8 @@ async function displayUser(){
                              <p class="card-text">${d.year}</p>
 
                             <a href="#" class="btn btn-outline-primary">WATCH</a>
-                         </div>
+                            <a href="#" class="btn btn-outline-primary">DELETE</a>
+                            </div>
                         </div>
                     </div>`
             // sec+=`<section class="sec" id="sec">
