@@ -6,7 +6,7 @@ import connect from "./conn.js";
 const app=express();
 dotenv.config();
 app.use(cors());
-app.use(express.json({ limit: "10000kb", extended: true }));
+app.use(express.json({ limit: "10000kb", extended: true }));    
 app.use('/api',router); 
 connect().then(()=>{
     app.listen(process.env.PORT,()=>{

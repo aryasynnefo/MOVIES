@@ -1,7 +1,7 @@
 let nm=document.getElementById("name");
 let year=document.getElementById("yr");
 let lang=document.getElementById("lang");
-let fl=document.getElementById("formFile")
+let fl=document.getElementById("formFile");
 
 document.getElementById("add").addEventListener("click",()=>{
 
@@ -25,7 +25,7 @@ document.getElementById("add").addEventListener("click",()=>{
   
     }
     else{
-        alert("fields must not be empty")
+        alert("The fields must not be empty")
     }
 })
 
@@ -42,3 +42,5 @@ function convertToBase64(file){
         }
     })
 }
+
+
